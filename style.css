@@ -106,7 +106,7 @@ section {
 
 body {
   line-height: 1;
-  background-color: #cf034a;
+  background-color: #009eda;
   text-align: center;
 }
 
@@ -167,8 +167,8 @@ h3{
     font-weight: bold;
      -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: -webkit-radial-gradient( 110% 50%, circle, rgb(8, 1, 1) 0%,#d487e9 110%,rgb(0, 7, 5));
-      background-image: radial-gradient( circle at 110% 50%, rgb(5, 0, 1) 0%,#d487e9 110%,rgb(10, 0, 0));
+    background-image: -webkit-radial-gradient( 110% 50%, circle, #01398c 0%,#ffffff 90%,#01398c);
+      background-image: radial-gradient( circle at 110% 50%, #01398c 0%,#ffffff 90%, #01398c);
     text-decoration: underline;
     animation-name: pan-gradient;
     animation-iteration-count: infinite;
@@ -178,29 +178,29 @@ h3{
 
 @-webkit-keyframes pan-gradient {
 
-0%   { 
-    
+0%   {
+
     background-position: 0 0;
 }
 
 25% {
-   
+
     background-position: -1200px -1200px;
 }
 
 
 
-50% { 
-    
+50% {
+
      background-position: -1200px 1200px;
- 
+
 }
 
 
-100% { 
-    
+100% {
+
      background-position: 0 0;
- 
+
 }
 
 }
@@ -254,7 +254,7 @@ h2 {
   position: relative;
   margin: 0px auto 30px;
   cursor: none;
-  
+
 }
 
 .key {
@@ -271,7 +271,7 @@ h2 {
   float: left;
   width: 10%;
   height: 100%;
-  background: rgba(255, 255, 255, .8);    
+  background: rgba(255, 255, 255, .8);
 }
 
 .key.sharp {
@@ -301,15 +301,15 @@ h2 {
 }
 
 .key[data-key="85"] {
-  left: 57%;    
+  left: 57%;
 }
 
 .key[data-key="79"] {
-  left: 77%;    
+  left: 77%;
 }
 
 .key[data-key="80"] {
-  left: 87%;    
+  left: 87%;
 }
 
 .playing {
@@ -333,6 +333,6 @@ h2 {
   opacity: 1;
 }
 .squig {
-   
+
     height: 80px;
   }
